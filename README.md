@@ -7,8 +7,8 @@
 * [Contact](#Contacts)
 
 
-		                          **Draw Game powered by HTML5/canvas**
-		                         	  ---------------------------------
+		                          Draw Game powered by HTML5/canvas
+		                         	  
 
   <a name="What"></a>What is it?
   -----------
