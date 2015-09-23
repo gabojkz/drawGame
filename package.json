@@ -1,0 +1,23 @@
+{
+  "name": "paintgame",
+  "version": "1.0.0",
+  "description": "draw game for have fun",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "draw",
+    "fun",
+    "app"
+  ],
+  "author": "gabriel",
+  "license": "MIT",
+  "devDependencies": {
+    "concat": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
