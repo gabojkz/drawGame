@@ -1,35 +1,34 @@
 # Table of Contents
-
 * [What is it?](#What)
 * [TRY NOW](#try)
 * [Version](#Version)
-* [Installation](#Installation)
-* [Licensing](#Licensing)
+* [Installation](#Install)
+* [Licensing](#license)
 * [Contact](#Contacts)
 
 
-                          Draw Game powered by HTML5/canvas
-                          ---------------------------------
+		                          **Draw Game powered by HTML5/canvas**
+		                         	  ---------------------------------
 
   <a name="What"></a>What is it?
   -----------
   This is a Draw Game made with HMTL , CSS and JAVASCRIPT
   you can paint and draw around the canvas.
 
-  Try Now!
+  <a name="try"></a>Try Now!
   -----------
   [DEMO]()
 
-  The Latest Version
+  <a name="Version"></a>The Latest Version
   ------------------
   v-1.0.0 first version
 
-  Installation
+  <a name="Install"></a>Installation
   -----------
 
   Download the files and open the html file with your favorite browser.
 
-  Licensing
+  <a name="license"></a>Licensing
   ---------
 
   -MIT LICENSE.
