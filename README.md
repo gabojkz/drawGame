@@ -9,9 +9,9 @@
 
 
                           Draw Game powered by HTML5/canvas
-                          =================================
+                          ---------------------------------
 
-  What is it?
+  <a name="What"></a>What is it?
   -----------
   This is a Draw Game made with HMTL , CSS and JAVASCRIPT
   you can paint and draw around the canvas.
@@ -42,5 +42,4 @@
 
      o If you want to collaborate in something please send me a message 
 
-     # <a name="Contacts"></a>Conctact
-		* "Gabriel Komander" <Gabrielux@gmx.com>
+     o <a name="Contacts"></a>Conctact "Gabriel Komander" <Gabrielux@gmx.com>
