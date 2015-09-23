@@ -5,7 +5,7 @@ var gulp        = require('gulp'),
 
 
 	gulp.task('build', function(){
-		return gulp.src(['index.html', 'app.js', 'style.css', 'images/mario.cur', 'images/mario.png'], {base:'./'})
+		return gulp.src(['index.html', 'app.js', 'style.css', 'img/mario.cur', 'img/mario.png'], {base:'./'})
 		.pipe(gulp.dest('dist'));//send the files to dist
 	});
 
