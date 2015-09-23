@@ -17,7 +17,7 @@
 
   <a name="try"></a>Try Now!
   -----------
-  [DEMO]()
+  [DEMO](http://gabojkz.github.io/drawGame/)
 
   <a name="Version"></a>The Latest Version
   ------------------
