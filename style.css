@@ -1,0 +1,142 @@
+body  {
+	background-color: #2C3E50;
+}
+canvas{
+	background-color: #ECF0F1;
+	border-radius: 5px;
+	display: block;
+	margin: 50px auto 10px;
+	cursor: url(img/mario.cur),crosshair;
+}
+#Instructions{
+	color:#ECF0F1;
+	text-align: center;
+}
+h2{
+	font-size: 1.8em;
+	font-family: 'Alegreya', serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+/* Colors Buttons */
+#Colors{
+	min-height: 60px;
+	margin: 0 auto;
+	width: 600px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+ul {
+	list-style:none;
+	margin: 0;
+	float: 	left;
+	padding: 10px 0 20px;
+	width: 100%;
+	text-align: center;
+}
+
+ul li, #newColor {
+	display:block;
+	height: 45px;
+	width: 45px;
+	border-radius: 60px;
+	cursor: pointer;
+	border: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0 5px 10px;
+}
+/*Erase and clear Buttons*/
+.fulldiv{
+  width: 180px;
+  margin: auto;
+}
+.cebutton{
+	position: relative;
+	float: left;
+}
+/*Basics Colors*/
+.red {
+	background: #e74c3c;
+}
+
+.blue {
+	background: #2980b9;
+}
+
+.yellow {
+	background: #f1c40f;
+}
+.green{
+	background: #1abc9c;
+}
+
+.selected {
+	border: 7px solid #fff;
+	width: 40px;
+	height: 40px;
+}
+button {
+	background: #c0392b;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+	border-radius: 3px;
+	box-shadow: none;
+	border: none;
+	margin: 10px 20px 20px 10px;
+
+}
+#revealNewColor {
+	border: none;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 5px 20px;
+	width: 160px;
+}
+#Panel {
+	background: #ECF0F1;
+	border-radius: 5px;
+	clear: both;
+	margin: 20px auto 0;
+	padding: 10px;
+	width: 305px;
+	position: relative;
+}
+#newColor {
+	width: 80px;
+	height: 80px;
+	box-shadow: none;
+	border: none;
+	margin: auto auto;
+	border-radius: 20px;
+}
+.sliders p {
+	margin: 8px 0;
+	vertical-align: middle;
+}
+.sliders label {
+	display: inline-block;
+	margin: 1px 0px 2px 8px;
+	width: 60px;
+	font-size: 14px;
+	color: #6D574E;
+}
+.sliders input {
+	position: relative;
+	top: 2px;
+}
+#Panel button {
+	border: none;
+	border-radius: 0 0 5px 5px;
+	clear: both;
+	margin: 10px -10px -11px;
+	padding: 5px 10px;
+	width: 325px;
+}

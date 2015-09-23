@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Draw Game</title>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="Instructions">
+	<h2>Instructions</h2>
+	<p>Draw something in the white canvas select the colors and the Brush size with the tool box but be careful is sometimes a ghost appears.</p>
+</div>
+
+<div>
+	<canvas id="cuadro" width="800" height="400"></canvas>
+</div>
+
+<div class="fulldiv">
+	<button id="clear" class="cebutton">Clear</button>
+	<button id="erase" class="cebutton">Eraser</button>
+</div>
+	<div>
+	<div class="Colors">
+		<ul>
+			<li class="yellow selected"></li>
+			<li class="blue"></li>
+			<li class="red"></li>
+			<li class="green"></li>
+		</ul>
+		
+	<div id="Panel">
+			<span id="newColor";></span>
+			<div class="sliders">
+			<div class="Size">
+				<p>
+					<label for="size">Size</label>
+					<input id="size" name="size" type="range" min=0 max=20 value=0>
+				</p>
+			</div>
+				<p>
+					<label for="red">Red</label>
+					<input id="red" name="red" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="green">Green</label>
+					<input id="green" name="green" type="range" min=0 max=255 value=0>
+				</p>
+				<p>
+					<label for="blue">Blue</label>
+					<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+				</p>
+			</div>
+			<div>
+			<button id="addNewColor">Add Color</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
